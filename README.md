@@ -10,7 +10,7 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 
 ## Dependency Library
  
-- **librosa:** (https://librosa.org/)
+- *librosa:*  (https://librosa.org/)
 - **soundfile:** (https://pysoundfile.readthedocs.io/en/latest/)
 - **Keras (my test version: 2.1.1):** 
 - **Tensorflow (my test version: 1.4.0):**
