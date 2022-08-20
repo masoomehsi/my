@@ -7,26 +7,8 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 
 
 
-## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Dataset Description](#dataset-description)
-  - [Dataset Summary](#dataset-summary)
-  - [Supported Tasks and Leaderboards](#supported-tasks-and-leaderboards)
-  - [Languages](#languages)
-- [Dataset Structure](#dataset-structure)
-- [Dataset Creation](#dataset-creation)
-  - [Source Data](#source-data)
-  - [Annotations](#annotations)
-  - [Personal and Sensitive Information](#personal-and-sensitive-information)
-- [Considerations for Using the Data](#considerations-for-using-the-data)
-  - [Social Impact of Dataset](#social-impact-of-dataset)
-- [Additional Information](#additional-information)
-  - [Dataset Curators](#dataset-curators)
-  - [Licensing Information](#licensing-information)
-  - [Citation Information](#citation-information)
-  - [Contributions](#contributions)
 
-## Dataset Description
+## Dependency Library
  
 - **Homepage:** [Sharif-SLPL](https://github.com/Sharif-SLPL)
 - **Repository:** [SynTran-fa](https://github.com/agp-internship/syntran-fa)
