@@ -1,11 +1,11 @@
  
 # Concurrent Speakers Counter
-Syntactic Transformed Version of Farsi QA datasets to make fluent responses from questions and short answers. You can use the syntran-fa dataset with [:hugs:/datasets](https://github.com/huggingface/datasets) by the code below:
+Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.
 
-```python
-import datasets
-data = datasets.load_dataset('SLPL/syntran-fa', split="train")
-```
+
+
+
+
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
