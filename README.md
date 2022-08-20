@@ -42,3 +42,6 @@ It is [called LibriCount10 0dB Dataset.](https://zenodo.org/record/1216072#.YwD3
 
 2. [Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks](https://hal.archives-ouvertes.fr/hal-01110035/document) (ICASSP 2015)
 
+Classification vs. Regression in Supervised Learningfor Single Channel Speaker Count Estimation ([Website](https://arxiv.org/pdf/1712.04555.pdf), [Github](https://github.com/aishoot/Concurrent_Speakers_Counter),[Paper](https://arxiv.org/pdf/1712.04555.pdf)
+  
+ 
