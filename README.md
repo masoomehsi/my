@@ -1,6 +1,6 @@
  
 # Concurrent Speakers Counter
-Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.
+Estimate the number of concurrent speakers from single channel mixtures.
 
 
 
