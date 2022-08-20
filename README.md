@@ -11,18 +11,30 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 ## Dependency Library
  
 - **librosa:** (https://librosa.org/)
-- **soundfile:** 
-- **Keras (my test version: 2.1.1):** [Sadra Sabouri](mailto:sabouri.sadra@gmail.com)
-- **Tensorflow (my test version: 1.4.0):** 
+- **soundfile:** (https://pysoundfile.readthedocs.io/en/latest/)
+- **Keras (my test version: 2.1.1):** 
+- **Tensorflow (my test version: 1.4.0):**
 - **Anaconda3 (Contains Python3.5+):**
+
+
+
 
 ### Dataset Summary
 
-Generating fluent responses has always been challenging for the question-answering task, especially in low-resource languages like Farsi. In recent years there were some efforts for enhancing the size of datasets in Farsi. Syntran-fa is a question-answering dataset that accumulates the former Farsi QA dataset's short answers and proposes a complete fluent answer for each pair of (question, short_answer).
 
-This dataset contains nearly 50,000 indices of questions and answers. The dataset that has been used as our sources are in [Source Data section](#source-data).
 
-The main idea for this dataset comes from [Fluent Response Generation for Conversational Question Answering](https://aclanthology.org/2020.acl-main.19.pdf) where they used a "parser + syntactic rules" module to make different fluent answers from a pair of question and a short answer using a parser and some syntactic rules. In this project, we used [stanza](https://stanfordnlp.github.io/stanza/) as our parser to parse the question and generate a response according to it using the short (1-2 word) answers. One can continue this project by generating different permutations of the sentence's parts (and thus providing more than one sentence for an answer) or training a seq2seq model which does what we do with our rule-based system (by defining a new text-to-text task).
+Dataset (https://zenodo.org/record/1216072#.YwD37nZBxPZ)
+
+It is called LibriCount10 0dB Dataset.
+
+- librosa: contains a simulated cocktail party environment of [0..10] speakers
+- **librosa:** mixed with 0dB SNR
+- **librosa:** 5 seconds of recording
+- **librosa:** 16bits, 16kHz, mono
+- **librosa:** 11440 Samples, 832.5 MB
+
+
+
 
 ### Supported Tasks and Leaderboards
 
