@@ -35,13 +35,13 @@ It is [called LibriCount10 0dB Dataset.](https://zenodo.org/record/1216072#.YwD3
   
 ## Reference Paper
 
-
+Classification vs. Regression in Supervised Learningfor Single Channel Speaker Count Estimation [Github](https://github.com/aishoot/Concurrent_Speakers_Counter), [Paper](https://arxiv.org/pdf/1712.04555.pdf).
  
  
 1. [Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel Speaker Count Estimation](https://arxiv.org/pdf/1712.04555.pdf) (ICASSP2018)
 
 2. [Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks](https://hal.archives-ouvertes.fr/hal-01110035/document) (ICASSP 2015)
 
-Classification vs. Regression in Supervised Learningfor Single Channel Speaker Count Estimation [Github](https://github.com/aishoot/Concurrent_Speakers_Counter), [Paper](https://arxiv.org/pdf/1712.04555.pdf)
+ 
   
  
