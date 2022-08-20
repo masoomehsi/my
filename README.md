@@ -11,27 +11,25 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 ## Dependency Library
  
 - *librosa:*  (https://librosa.org/)
-- **soundfile:** (https://pysoundfile.readthedocs.io/en/latest/)
-- **Keras (my test version: 2.1.1):** 
-- **Tensorflow (my test version: 1.4.0):**
-- **Anaconda3 (Contains Python3.5+):**
+- *soundfile:* (https://pysoundfile.readthedocs.io/en/latest/)
+- *Keras (my test version: 2.1.1):* 
+- *Tensorflow (my test version: 1.4.0):*
+- *Anaconda3 (Contains Python3.5+):*
 
 
 
 
-### Dataset Summary
+### Dataset 
 
+   
 
-
-Dataset (https://zenodo.org/record/1216072#.YwD37nZBxPZ)
-
-It is called LibriCount10 0dB Dataset.
+It is [called LibriCount10 0dB Dataset.] (https://zenodo.org/record/1216072#.YwD37nZBxPZ)
 
 - librosa: contains a simulated cocktail party environment of [0..10] speakers
-- **librosa:** mixed with 0dB SNR
-- **librosa:** 5 seconds of recording
-- **librosa:** 16bits, 16kHz, mono
-- **librosa:** 11440 Samples, 832.5 MB
+- librosa: mixed with 0dB SNR
+- librosa: 5 seconds of recording
+- librosa: 16bits, 16kHz, mono
+- librosa: 11440 Samples, 832.5 MB
 
 
 
