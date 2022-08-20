@@ -10,10 +10,11 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 
 ## Dependency Library
  
-- **Homepage:** [Sharif-SLPL](https://github.com/Sharif-SLPL)
-- **Repository:** [SynTran-fa](https://github.com/agp-internship/syntran-fa)
-- **Point of Contact:** [Sadra Sabouri](mailto:sabouri.sadra@gmail.com)
-- **Size of dataset files:** 6.68MB
+- **librosa:** (https://librosa.org/)
+- **soundfile:** 
+- **Keras (my test version: 2.1.1):** [Sadra Sabouri](mailto:sabouri.sadra@gmail.com)
+- **Tensorflow (my test version: 1.4.0):** 
+- **Anaconda3 (Contains Python3.5+):**
 
 ### Dataset Summary
 
