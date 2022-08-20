@@ -31,64 +31,19 @@ It is [called LibriCount10 0dB Dataset.] (https://zenodo.org/record/1216072#.YwD
 - librosa: 16bits, 16kHz, mono
 - librosa: 11440 Samples, 832.5 MB
 
+   
+
+ As we all know, it's pretty hard to solve the cocktail-party problem. This is the ﬁrst study on data-driven speaker count estimation and the first step to crack the problem. Thanks for the author's paper[Paper 2] and code which help me a lot. Their homepage is AudioLabs Erlangen CountNet.
+
+Paper 1: Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks (ICASSP 2015).
+Paper 2: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel Speaker Count Estimation (ICASSP2018).
 
 
-
-### Supported Tasks and Leaderboards
-
-This dataset can be used for the question-answering task, especially when you are going to generate fluent responses. You can train a seq2seq model with this dataset to generate fluent responses - as done by [Fluent Response Generation for Conversational Question Answering](https://aclanthology.org/2020.acl-main.19.pdf).
-
-### Languages
-
-+ Persian (fa)
-
-## Dataset Structure
-Each row of the dataset will look like something like the below:
-```python
-{
-  'id': 0,
-  'question': 'باشگاه هاکی ساوتهمپتون چه نام دارد؟',
-  'short_answer': 'باشگاه هاکی ساوتهمپتون',
-  'fluent_answer': 'باشگاه هاکی ساوتهمپتون باشگاه هاکی ساوتهمپتون نام دارد.',
-  'bert_loss': 1.110097069682014
-}
-```
-+ `id` : the entry id in dataset
-+ `question` : the question
-+ `short_answer` : the short answer corresponding to the `question` (the primary answer)
-+ `fluent_answer` : fluent (long) answer generated from both `question` and the `short_answer` (the secondary answer)
-+ `bert_loss` : the loss that [pars-bert](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased) gives when inputting the `fluent_answer` to it. As it increases the sentence is more likely to be influent.
-
-Note: the dataset is sorted increasingly by the `bert_loss`, so first sentences are more likely to be fluent.
-
-### Data Splits
-
-Currently, the dataset just provided the `train` split. There would be a `test` split soon.
-
-## Dataset Creation
-
-We extract all short answer (1-2 words as answer) entries of all open source QA datasets in Farsi and used some rules featuring the question parse tree to make long (fluent) answers.
-
-### Source Data
-The source datasets that we used are as follows:
-
-+ [PersianQA](https://github.com/sajjjadayobi/PersianQA)
-+ [PersianQuAD](https://ieeexplore.ieee.org/document/9729745)
-+ [PQuAD](https://arxiv.org/abs/2202.06219)
-
-### Personal and Sensitive Information
-
-The dataset is completely a subset of open source known datasets so all information in it is already there on the internet as a open-source dataset. By the way, we do not take responsibility for any of that.
-
-### Dataset Curators
-
-The dataset is gathered together completely in the Asr Gooyesh Pardaz company's summer internship under the supervision of Soroush Gooran, Prof. Hossein Sameti, and the mentorship of Sadra Sabouri. This project was Farhan Farsi's first internship project. 
-
-### Contributions
-
-Thanks to [@farhaaaaa](https://github.com/farhaaaaa) for adding this dataset.
-
-## References
+## Reference Paper
+ As we all know, it's pretty hard to solve the cocktail-party problem. This is the ﬁrst study on data-driven speaker count estimation and the first step to crack the problem. Thanks for the author's paper[Paper 2] and code which help me a lot. Their homepage is AudioLabs Erlangen CountNet.
+ 
+ 
+ 
 1. [Fluent Response Generation for Conversational Question Answering](https://aclanthology.org/2020.acl-main.19) (Baheti et al., ACL 2020)
 2. [Good Question! Statistical Ranking for Question Generation](https://aclanthology.org/N10-1086) (Heilman & Smith, NAACL 2010)
 3. [Accurate Unlexicalized Parsing](https://aclanthology.org/P03-1054) (Klein & Manning, ACL 2003)
